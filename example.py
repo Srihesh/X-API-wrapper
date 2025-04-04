@@ -25,7 +25,7 @@ def main():
     print("tweet with media(requires elevated access):")
     print(x.post_media_tweet("<your text with media>", "<image link>"))
 
-    print("\nviewing bookmakrs (requires elevated access):")
+    print("\nviewing bookmarks (requires elevated access):")
     print(x.get_bookmarks())
 
     print("\n=== Enterprise Tier Functions ===")
